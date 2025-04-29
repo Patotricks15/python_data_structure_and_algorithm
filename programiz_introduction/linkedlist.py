@@ -5,6 +5,7 @@ class Node:
 
 class LinkedList:
     def __init__(self):
+        
         self.head = None
     def append(self, data):
         new_node = Node(data)
@@ -18,6 +19,9 @@ class LinkedList:
             last.next = new_node
             print("Appended:", data)
     def print_list(self):
+        """
+        Prints out the linked list in the format 1 -> 2 -> 3 -> None
+        """
         current = self.head
         while current:
             print(current.data, end = " -> ")

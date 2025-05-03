@@ -10,3 +10,4 @@ for i in range(n-1):
     my_array.insert(i, min_value) # insert into correct position
 
 print("Sorted array:", my_array)
+
